@@ -2,6 +2,7 @@
 This script makes building binary wallets easy, just change a few values and let it run.
 
 Tested only under Ubuntu Linux 16.04 64bit, use at own risk!
+I assume that you have installed all needed Systempackages for Compiling. Look at doc/build-unix.md and doc/build-windows.md for these dependencies!
 
 Modify the script and change the following lines to your needs:
 
