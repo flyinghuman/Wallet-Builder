@@ -29,6 +29,9 @@ Happy compiliing!
 Donatations are welcome:
 
 BTC: 1NEv7hoTMZrYHk7WeHQRmshxZQbKadGj9x
+
 BCH: qqcccgns5uxdpny5aea72hryfpntnaagjqrespwdj0
+
 DASH: Xnzed2r417hGfgLG4DqCCTSNPci6FbvgHW
+
 ETH: 0x5D0F170eBc8caC2db4F9477E26A4858142abDEEB
