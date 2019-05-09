@@ -1,8 +1,8 @@
 # Wallet-Builder
 This script makes building binary wallets easy, just change a few values and let it run.
 
-Tested only under Ubuntu Linux 16.04 64bit, use at own risk!
-I assume that you have installed all needed Systempackages for Compiling. Look at doc/build-unix.md and doc/build-windows.md for these dependencies!
+Tested only under Ubuntu Linux 16.04 64bit, use at your own risk!
+I assume that you have installed all needed system packages for compiling. Look at doc/build-unix.md and doc/build-windows.md for these dependencies!
 
 Modify the script and change the following lines to your needs:
 
@@ -13,21 +13,21 @@ NCPU=2 # how much cpu use for compiling
 OSX_SDK=10.11 #which version to use; look in depends/hosts/darwin.mk which version should be used
 ```
 
-These lines representing the Platforms to be built:
+These lines represent the platforms to be built:
 ```
 SYSTEMS=(i686-w64-mingw32 x86_64-w64-mingw32 i686-pc-linux-gnu x86_64-unknown-linux-gnu x86_64-apple-darwin11 arm-linux-gnueabihf aarch64-linux-gnu)
 FOLDERS=(WIN32 WIN64 LIN32 LIN64 MACOS ARM AARCH64)
 MACDIR=MACOS
 ```
-For MACOS crosscompling you maybe must change the x86_64-apple-darwin11 to another value like x86_64-apple-darwin14; look in depends/README.md for that value.
+For MACOS cross-compiling you may need to change the x86_64-apple-darwin11 to another value like x86_64-apple-darwin14; look in depends/README.md for that value.
 
 
 
-Happy compiliing!
+Happy compiling!
 
 
 
-Donatations are welcome:
+Donations are welcome:
 ```
 BTC: 1NEv7hoTMZrYHk7WeHQRmshxZQbKadGj9x
 BCH: qqcccgns5uxdpny5aea72hryfpntnaagjqrespwdj0
